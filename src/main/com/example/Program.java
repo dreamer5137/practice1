@@ -5,10 +5,10 @@ public class Program
     {
         int x1,y1;
         Scanner in = new Scanner(System.in);
-        System.out.print("Введите координаты точки a");
+        System.out.print("Введите координаты точки a\n");
         x1 = in.nextInt();
         y1 = in.nextInt();
-        System.out.print("Введите координаты точки b");
+        System.out.print("Введите координаты точки b\n");
         int x2 = in.nextInt();
         int y2 = in.nextInt();
         Point a = new Point(x1, y1);
